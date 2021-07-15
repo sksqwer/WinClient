@@ -13,3 +13,12 @@
 #include <malloc.h>
 #include <memory.h>
 #include <tchar.h>
+
+#include <WinSock2.h>
+#pragma comment(lib, "ws2_32.lib")
+#include <stdio.h>
+
+#define WM_ASYNC WM_USER + 1
+#include <vector>
+#include <list>
+//
